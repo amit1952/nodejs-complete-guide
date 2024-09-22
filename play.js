@@ -1,10 +1,8 @@
-const { summariseUser } = require("./summariseUser");
-
 const name = 'Amitava';
 let age = 52;
 const hasHobbies = true;
 
-(userName, userAge, userhasHobby) {
+const summariseUser(userName, userAge, userhasHobby) {
     return(
        'Name is ' +
        userName +
@@ -14,4 +12,7 @@ const hasHobbies = true;
     );
 }
 
+const add=(a,b) => {
+    return a + b;
+}
 console.log(summariseUser(name, age, hasHobbies))
