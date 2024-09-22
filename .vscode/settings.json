@@ -1,0 +1,6 @@
+{
+    "prettier.configPath": "config/.prettierrc",
+    "prettier.documentSelectors": [
+        "*.js"
+    ]
+}
