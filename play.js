@@ -16,3 +16,4 @@ const add=(a,b) => {
     return a + b;
 }
 console.log(summariseUser(name, age, hasHobbies))
+console.log(add(2, 4));
