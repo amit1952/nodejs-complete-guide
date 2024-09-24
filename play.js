@@ -1,7 +1,7 @@
 const person = {
     name: 'Amitava',
     age: 72,
-    greet: => {
+    greet:  {
         console.log(person);
     },
 };
