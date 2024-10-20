@@ -14,8 +14,15 @@ const summarizer = (userName, userAge, userHashobby) => {
     );
 };
 
-const add = (a, b) =>  a + b;
+// const add = (a, b) =>  a + b;
+
+// const addOne = a => a + 1
+const addRandom = () => 1 + 2;
+
+console.log(addRandom());
 
 console.log(summarizer(myName, age, hasHobbies));
 
-console.log(add(1, 2));
+// console.log(add(1, 2));
+
+// console.log(addOne(5));
