@@ -1,11 +1,11 @@
-const name = 'Amitava';
+const myName = 'Amitava';
 let age = 72;
 const hasHobbies = true;
 
 
 const summarizer = (userName, userAge, userHashobby) => {
     return (
-        'Name is ' +
+        'nameame is ' +
         userName +
         ', age is ' +
         userAge +
@@ -14,4 +14,8 @@ const summarizer = (userName, userAge, userHashobby) => {
     );
 };
 
-console.log(summarizer(name, age, hasHobbies));
+const add = (a, b) =>  a + b;
+
+console.log(summarizer(myName, age, hasHobbies));
+
+console.log(add(1, 2));
