@@ -1,14 +1,17 @@
-const person = {
-    name: "Amitava",
-    age: 72,
-    greet()  {
-        console.log('Hi, I am ' + this.name);
-    }
+const name = 'Amitava';
+let age = 72;
+const hasHobbies = true;
+
+
+const summarizer = (userName, userAge, userHashobby) => {
+    return (
+        'Name is ' +
+        userName +
+        ', age is ' +
+        userAge +
+        ' and the user has hobbies ' +
+        userHashobby
+    );
 };
 
-const hobbies = ['Sports', 'Programming', 'Reading']
-// for (let hobby of hobbies) {
-//     console.log(hobby)
-// }
-console.log(hobbies.map());
-console.log(hobbies); 
+console.log(summarizer(name, age, hasHobbies));
