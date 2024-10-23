@@ -5,7 +5,7 @@ const hasHobbies = true;
 
 const summarizer = (userName, userAge, userHashobby) => {
     return (
-        'nameame is ' +
+        'name is ' +
         userName +
         ', age is ' +
         userAge +
